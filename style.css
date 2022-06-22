@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Rubik+Glitch&display=swap');
+
+
+#mainTitle {
+  font-size: 90px;
+  font-family: 'Rubik Glitch', cursive;
+  text-align: center;
+  padding: 50px;
+}
+
+.mainContainer{
+  display: inline-block;
+  background-color: relative;
+  width: 300px;
+  height: 400px;
+  transform: translate (-50%, -50%);
+  perspective: 1000px;
+  border-radius: 40px;
+  margin: 1rem;
+  border-radius: 40px;
+}
+
+.card{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  margin: 1rem;
+  border-radius: 40px;
+  
+}
+
+.front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 40px;
+  background-size: cover;
+	background-position: center;
+}
+
+.back{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  backface-visibility: hidden;
+  color: white;
+  font-family:'IM Fell Double Pica SC', serif;
+  text-align: center;
+  text-decoration: underline;
+  transform: rotateY(180deg);
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.flipCard{
+    transform: rotateY(180deg);
+}
+
+img {
+  padding: 10px;
+  width: 250px;
+  height: 170px;
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px gray;
+}
+
+button {
+  border-radius: 5px;
+  position: absolute;
+  top: 350px;
+  right: 20px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+}
+#eren{
+  background-image: linear-gradient(#7A736C,#C0BFBA);
+}
+
+#zeke{
+  background-image: linear-gradient(#2D2B27,#8C8C83);
+}
+
+#reiner{
+   background-image: linear-gradient(#8E8061,
+#E9F0D6);
+}
+
+#armin{
+   background-image: linear-gradient(#BC7A63,
+#AC8C8C);
+}
+
+#annie{
+   background-image: linear-gradient(#5A281A,
+#BC6F4E);
+}
+
+#pieck{
+   background-image: linear-gradient(#594E4F,
+#8F9A9F);
+}
+
+#falco{
+   background-image: linear-gradient(#5A5A52,
+#989C87);
+}
