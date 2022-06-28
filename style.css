@@ -8,6 +8,28 @@
   padding: 50px;
 }
 
+body {
+  animation-name: pathsColors;
+  animation: pathsColors 180s infinite;
+}
+
+@keyframes pathsColors{
+  0% {
+    background: #F1FAFC;
+  }
+  25% {
+    background: #F2F1EF ;
+  }
+  50% {
+    background: #EBEBE8;
+  }
+  75% {
+    background: #FBF6F3;
+  }
+  100% {
+    background: #EFEFE6;
+}
+}
 .mainContainer{
   display: inline-block;
   background-color: relative;
